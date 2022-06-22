@@ -53,7 +53,7 @@ input, textarea {
 
 .btn-btn-primary{
     width: 110px; 
-    margin-left: 560px;   
+    margin-left: 46%;
     margin-top: 20px;
     border-radius: 10px;
     border: 0px;
@@ -137,7 +137,8 @@ button:hover{
     }
 
     .btn-btn-primary{
-        width:90px;   
+        width:90px;  
+        margin-left: 46%; 
     }
 
     .form-row{
