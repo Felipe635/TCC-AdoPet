@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/home.css">
     <link rel="stylesheet" href="../CSS/stylePet.css">
+	<link rel="stylesheet" href="../CSS/modal.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <title>AdoPet</title>
 </head>
@@ -49,8 +50,14 @@
               <img src="../imgAdocao/gato1.jpg" class="img-container">
           </div>
               <h1 class="texto"><br> <img src="../imgAdocao/mulher.png" alt=""> Layla | 1a</h1>
-          <button class="botao-conheca"><h6>CONHEÇA</h6></button>
-              <button class="botao-adote" ><h6>ADOTE</h6></button>
+         <button class="botao-conheca">
+                    <a href="#abrirModal" class="botao-conheca"><h6>CONHEÇA</h6></a>
+                </button>
+            
+                    <button class="botao-adote">
+						<a href="Formulario2.html" class="botao-adote"><h6>ADOTE</h6></a>
+					</button>
+					
           </div>
           </div>
           <div class="box-js"> Juana 6 meses gato fêmea
@@ -59,8 +66,13 @@
                   <img src="../imgAdocao/gato4.jpg" class="img-container">
               </div>
               <h1 class="texto"><br> <img src="../imgAdocao/mulher.png" alt=""> Juana | 6m</h1>
-              <button class="botao-conheca"><h6>CONHEÇA</h6></button>
-              <button class="botao-adote"><h6>ADOTE</h6></button>
+               <button class="botao-conheca">
+                    <a href="#abrirModal2" class="botao-conheca"><h6>CONHEÇA</h6></a>
+                </button>
+            
+                    <button class="botao-adote">
+						<a href="Formulario2.html" class="botao-adote"><h6>ADOTE</h6></a>
+					</button>
           </div>
           </div>
           <div class="box-js"> Dinamit 1 ano gato macho
@@ -69,11 +81,61 @@
                   <img src="../imgAdocao/gato2.jpg" class="img-container">
               </div>
               <h1 class="texto"> <br> <img src="../imgAdocao/homem.png" alt=""> Dinamit | 1a</h1>
-              <button class="botao-conheca"><h6>CONHEÇA</h6></button>
-              <button class="botao-adote"><h6>ADOTE</h6></button>
+              <button class="botao-conheca">
+                    <a href="#abrirModal3" class="botao-conheca"><h6>CONHEÇA</h6></a>
+                </button>
+            
+                    <button class="botao-adote">
+						<a href="Formulario2.html" class="botao-adote"><h6>ADOTE</h6></a>
+					</button>
           </div>
           </div>
       </div>
+	  
+	  <div id="abrirModal" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h3>Layla</h3>
+        <div class="sobre-img">
+            <p class="sobre">
+          Idade: 1 ano<br>
+          Peso: 3,500kg<br>
+          Porte: Médio<br>
+          Raça: Sem Raça Definida<br>
+          Sobre: Uma gata resgatada das ruas, dócil, com bom contato com crianças. Resgatado nas ruas!
+             </p>
+             <img class="img-modal" src="../imgAdocao/gato1.jpg" alt="">
+            </div>
+          </div>
+
+          <div id="abrirModal2" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h3>Juana</h3>
+        <div class="sobre-img">
+            <p class="sobre">
+          Idade: 6 meses<br>
+          Peso: 3,000kg<br>
+          Porte: Pequeno<br>
+          Raça: Sem Raça Definida<br>
+          Sobre: Gata de pelagem clara e de boa convivência com outros animais. Resgatada nas ruas!
+             </p>
+             <img class="img-modal" src="../imgAdocao/gato4.jpg" alt="">
+            </div>
+          </div>
+
+          <div id="abrirModal3" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">x</a>
+            <h3>Dinamit</h3>
+        <div class="sobre-img">
+            <p class="sobre">
+          Idade: 1 ano<br>
+          Peso: 3,000kg<br>
+          Porte: Pequeno<br>
+          Raça: Siamês<br>
+          Sobre: Gato de pelagem mista, dócil e companheiro. Resgatado nas ruas!
+             </p>
+             <img class="img-modal" src="../imgAdocao/gato2.jpg" alt="">
+            </div>
+          </div>
       
   </section>
   
