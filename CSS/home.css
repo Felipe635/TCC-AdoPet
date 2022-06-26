@@ -423,6 +423,10 @@ body{
     height: 120px;
 }
 
+.texto-box-imgs{
+	text-align: justify;
+}
+
 .box-imagem-frente:hover{
 	transform: scale(1.35, 1.30);
 }
