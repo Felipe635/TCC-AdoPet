@@ -15,6 +15,10 @@ body{
     height: 100vh;
 }
 
+.mapa{
+    background-color: #ffde59;
+}
+
 .menu{
     list-style:none;
     float:left;
